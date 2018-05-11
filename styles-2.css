@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+
+nav {
+  background-color: #7998C9;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 0px 40px 0px 40px;
+}
+
+nav img {
+  height: 80px;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links-container div {
+  margin: 0px 10px 0px 10px;
+  font-size: 28px;
+  font-family: sans-serif;
+}
